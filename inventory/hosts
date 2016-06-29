@@ -1,5 +1,12 @@
 api.rambling.io
 
+[consulmaster]
+api.rambling.io
+
+[consulslave]
+perambulator.rambling.io
+skidder.rambling.io
+
 [consulservers]
 api.rambling.io
 perambulator.rambling.io
