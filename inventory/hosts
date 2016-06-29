@@ -1,0 +1,15 @@
+api.rambling.io
+
+[consulservers]
+api.rambling.io
+perambulator.rambling.io
+skidding.rambling.io
+
+[webservers]
+api.rambling.io
+
+[dbservers]
+api.rambling.io
+
+[elasticservers]
+api.rambling.io
