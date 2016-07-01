@@ -1,0 +1,15 @@
+- name: "Refresh apt"
+  become: yes
+  apt: update_cache=yes
+
+- name: "Install git"
+  become: yes
+  apt: name=git-core state=latest
+
+- name: "Install unattended-upgrades"
+  become: yes
+  apt: name=unattended-upgrades state=latest
+
+- name: "Install logwatch"
+  become: yes
+  apt: name=logwatch state=latest
