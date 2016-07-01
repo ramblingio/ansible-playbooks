@@ -1,0 +1,5 @@
+[api]
+api.rambling.io ansible_user=chriswk
+
+[consul]
+api.rambling.io ansible_user=chriswk
