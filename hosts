@@ -1,5 +1,5 @@
 [api]
-api.rambling.io ansible_user=chriswk
+api.rambling.io ansible_user=root
 
 [consul]
-api.rambling.io ansible_user=chriswk
+api.rambling.io ansible_user=root

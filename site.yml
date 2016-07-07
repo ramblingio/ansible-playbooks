@@ -6,3 +6,17 @@
   roles:
     - common
     - fail2ban
+
+- hosts: consul
+  vars:
+    consul_version: 0.6.4
+    consul_is_server: "true"
+    consul_datacenter: "rambling"
+    consul_bootstrap: "true"
+    consul_bind_address: "{{ ansible_default_ipv4['address'] }}"
+    consul_is_ui: true
+    consul_encrypt: flKD50QbZQXooiS+uxt4Sg==
+    use_systemd: true
+    use_upstart: false
+  roles:
+    - savagegus.consul
